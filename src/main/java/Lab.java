@@ -18,6 +18,14 @@ public class Lab {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        return null;
+     InnerLab a = new InnerLab();
+     return a;
+    }
+    /**
+     * InnerLab
+     */
+    public class InnerLab {
+        
+        
     }
 }
